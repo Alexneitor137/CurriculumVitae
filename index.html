@@ -1,1 +1,217 @@
-a
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Currículum Vitae - Alejandro Calderón Sánchez</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #eef1f5;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 260px 1fr;
+      width: 70%;
+      max-width: 950px;
+      margin: 2rem auto;
+      background: white;
+      border-radius: 6px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    /* BANNER SUPERIOR */
+    .banner {
+      grid-column: 1 / 3;
+      background: #1f4f8b;
+      color: white;
+      padding: 2rem;
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    .banner img {
+      width: 160px;
+      height: 160px;
+      border-radius: 4px;
+      object-fit: cover;
+    }
+
+    .banner h1 {
+      font-size: 2rem;
+      margin: 0;
+      font-weight: 700;
+    }
+
+    .banner h2 {
+      font-size: 1.2rem;
+      margin: 0.3rem 0 0 0;
+      font-weight: 400;
+    }
+
+    /* COLUMNA IZQUIERDA */
+    .email-small {
+      font-size: 0.78rem;
+      display: inline-block;
+      max-width: 100%;
+      word-break: normal;
+    }
+
+    
+    .left {
+      background: #dfe5ef;
+      padding: 2rem;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+    }
+
+    .break-text {
+      display: inline-block;
+      max-width: 100%;
+      word-break: break-all;
+    }
+
+    /* Rest of left column styles */
+    .left {
+      background: #dfe5ef;
+      padding: 2rem;
+    }
+
+    .section-title {
+      font-size: 1.3rem;
+      margin: 1.5rem 0 0.8rem;
+      font-weight: bold;
+    }
+
+    .left p, .left li {
+      color: #333;
+      line-height: 1.5;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    /* ICONOS CONTACTO */
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+      margin: 0.8rem 0;
+    }
+
+    .contact-item p {
+      margin: 0;
+      font-size: 0.95rem;
+    }
+
+    .icon-img { width: 24px; height: 24px; filter: invert(25%) sepia(58%) saturate(800%) hue-rotate(180deg); }
+
+    /* COLUMNA DERECHA */
+    .right {
+      padding: 2rem;
+    }
+
+    .right h3 {
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+      font-weight: bold;
+    }
+
+    .right li {
+      margin-bottom: 0.4rem;
+      line-height: 1.5;
+    }
+
+    .bold {
+      font-weight: bold;
+      color: #1f4f8b;
+    }
+  </style>
+</head>
+<body>
+
+<div class="layout">
+
+  <!-- BANNER SUPERIOR -->
+  <div class="banner">
+    <img src="img.jpg" alt="Foto" />
+    <div>
+      <h1>Alejandro Calderón Sánchez</h1>
+      <h2>Tecnico de Medios informáticos</h2>
+    </div>
+  </div>
+
+  <!-- COLUMNA IZQUIERDA -->
+  <div class="left">
+    <h3 class="section-title">Sobre mí</h3>
+    <p>Soy un estudiante de desarrollo y sistemas informáticos con una fuerte motivación por crecer profesionalmente en el sector tecnológico. Destaco por mi rápida adaptación, capacidad para aprender nuevas herramientas y mi compromiso con el trabajo en equipo. Me interesa especialmente el desarrollo de software y la ciberseguridad, áreas en las que busco seguir formándome y adquirir experiencia práctica.</p>
+
+    <h3 class="section-title">Contacto</h3>
+
+<p><strong>Teléfono:</strong><br>+622 75 46 07</p>
+<p><strong>Email:</strong><br><span class="email-small">Alexcalderonsanchez@gmail.com</span></p>
+<p><strong>Ubicación:</strong><br>Valencia</p>
+
+<h3 class="section-title">Más información</h3>
+    <ul>
+      <li>Disponibilidad Parcial (Tardes y Noches) y Fines de semana</li>
+      <li>Introducción Inmediata</li>
+    </ul>
+
+    <h3 class="section-title">Conocimientos de idiomas</h3>
+    <p>No acreditados</p>
+    <ul>
+      <li>Español - nativo</li>
+      <li>Valenciano - medio</li>
+      <li>Inglés - medio-alto</li>
+    </ul>
+  </div>
+
+  <!-- COLUMNA DERECHA -->
+  <div class="right">
+    <h3>Formación Académica</h3>
+    <ul>
+      <li><span class="bold">Grado Superior en Desarrollo de Aplicaciones Multimedia</span><br>Septiembre 2025 / Actualidad. Centro Ceac Burjassot</li>
+      <li><span class="bold">Grado medio en Sistemas Microinformáticos y Redes</span><br>Septiembre 2023 / 2025. Centro Progresa</li>
+      <li><span class="bold">Titulación Educación Secundaria Obligatoria</span><br>2018 / 2022. Colegio Esclavas de Maria</li>
+    </ul>
+
+    <h3>Cursos Formativos</h3>
+    <ul>
+      <li>Curso de aprendizaje sobre Inteligencias Artificiales – Centro Progresa 72hrs</li>
+    </ul>
+
+    <h3>Habilidades</h3>
+    <ul>
+      <li>Buena comunicación</li>
+      <li>Resolución de problemas</li>
+      <li>Dominio del paquete Office</li>
+      <li>Espíritu competitivo</li>
+      <li>Agilidad con los resultados</li>
+      <li>Mejoro con los errores</li>
+      <li>Alta adaptabilidad</li>
+    </ul>
+
+    <h3>Competencias Técnicas</h3>
+    <ul>
+      <li>Python</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Canva</li>
+      <li>Excell</li>
+      <li>SQL</li>
+      <li>Json</li>
+    </ul>
+  </div>
+
+</div>
+
+</body>
+</html>
+
